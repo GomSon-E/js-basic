@@ -1,0 +1,5 @@
+fetch('https://jsonplaceholder1.typicode.com/todos/3')
+.then((response) => response.text())
+.then((result) => {console.log(result)})
+.catch(() => {console.log('error가 발생되었습니다')})
+.finally(() => {console.log('작업이 끝났습니다')})

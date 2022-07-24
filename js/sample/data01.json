@@ -1,0 +1,11 @@
+{
+  "string": "json",
+  "number": 123, 
+  "boolean": true,
+  "null": null,
+  "object": {
+    "a": "123",
+    "b": "str"
+  },
+  "array": [1, 2, 3]
+}
